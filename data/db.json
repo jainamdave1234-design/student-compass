@@ -1,0 +1,859 @@
+{
+  "users": [
+    {
+      "id": "admin-1",
+      "name": "System Administrator",
+      "email": "admin@compass.edu",
+      "passwordHash": "ce32e994f3234f22e48b05e1ea42c6aff496a2dd20cbffc2a393bd10c29ada17",
+      "role": "admin",
+      "createdAt": "2026-08-07T00:00:00.000Z"
+    },
+    {
+      "id": "student-1",
+      "name": "Alex Mercer",
+      "email": "alex@student.edu",
+      "passwordHash": "ce32e994f3234f22e48b05e1ea42c6aff496a2dd20cbffc2a393bd10c29ada17",
+      "role": "student",
+      "createdAt": "2026-08-07T00:00:00.000Z",
+      "profile": {
+        "major": "Computer Science",
+        "year": "3rd Year",
+        "interests": [
+          "cloud-computing",
+          "cloud-infrastructure",
+          "cybersecurity"
+        ],
+        "strengths": [
+          "analytical",
+          "creative"
+        ],
+        "goals": [
+          "product-creation"
+        ]
+      },
+      "skills": [
+        "html-css",
+        "javascript",
+        "git"
+      ]
+    }
+  ],
+  "careers": [
+    {
+      "id": "fullstack-engineer",
+      "name": "Full-Stack Software Engineer",
+      "description": "Designs, builds, and maintains complete web applications from database architecture and backend APIs to frontend user interfaces. Highly versatile developers who understand both client-side presentation and server-side logic.",
+      "whyItSuits": "Matches students who show creative strength (for UI layout/frontend) coupled with analytical skills (for API design and database modeling), and prioritize remote-work and product ownership.",
+      "salaryRange": "$85,000 - $150,000",
+      "demandLevel": "High",
+      "requiredSkills": [
+        "html-css",
+        "javascript",
+        "git",
+        "react-js",
+        "nodejs-express",
+        "sql-databases",
+        "system-design",
+        "cloud-deployment"
+      ]
+    },
+    {
+      "id": "aiml-specialist",
+      "name": "AI/ML Engineer",
+      "description": "Develops neural networks, machine learning models, and algorithms to automate data-driven decisions and build intelligent systems. Essential role in modern industries leveraging big data, automation, and predictive analytics.",
+      "whyItSuits": "Suits students with strong analytical skills, math-heavy academic backgrounds, and goals oriented toward R&D, innovation, and high-tech research.",
+      "salaryRange": "$110,000 - $190,000",
+      "demandLevel": "Very High",
+      "requiredSkills": [
+        "python",
+        "math-foundations",
+        "pandas-numpy",
+        "scikit-learn",
+        "deep-learning",
+        "mlops",
+        "sql-databases"
+      ]
+    },
+    {
+      "id": "cybersecurity-analyst",
+      "name": "Cybersecurity Analyst",
+      "description": "Protects an organization's network, servers, and data systems from cyber threats, unauthorized access, and data breaches. Analyzes security infrastructure, performs penetrations tests, and builds defenses.",
+      "whyItSuits": "Ideal for detail-oriented, systematic thinkers interested in infrastructure, networking protocols, security standards, and defense strategies.",
+      "salaryRange": "$80,000 - $140,000",
+      "demandLevel": "High",
+      "requiredSkills": [
+        "networking-foundations",
+        "linux-bash",
+        "security-principles",
+        "cryptography",
+        "web-vulns-owasp",
+        "penetration-testing",
+        "threat-analysis"
+      ]
+    },
+    {
+      "id": "devops-engineer",
+      "name": "Cloud & DevOps Engineer",
+      "description": "Bridges the gap between software developers and IT staff. Automates software delivery pipelines, manages cloud infrastructure, and monitors application reliability at scale.",
+      "whyItSuits": "Fits students who love system automation, scripting, server management, and optimizing workflow pipelines to ensure massive application scaling.",
+      "salaryRange": "$95,000 - $165,000",
+      "demandLevel": "Very High",
+      "requiredSkills": [
+        "linux-bash",
+        "networking-foundations",
+        "python",
+        "cloud-platforms",
+        "docker-containers",
+        "cicd-pipelines",
+        "kubernetes",
+        "infra-as-code"
+      ]
+    },
+    {
+      "id": "embedded-engineer",
+      "name": "Embedded Systems & IoT Engineer",
+      "description": "Writes low-level firmware that directly interacts with physical hardware microcontrollers and microprocessors. Integrates hardware and software to power smart devices, robotics, and automotive systems.",
+      "whyItSuits": "Highly recommended for Electrical, Electronics, or Robotics students who enjoy hardware interaction, low-level programming (C/C++), and working with microcontrollers.",
+      "salaryRange": "$85,000 - $145,000",
+      "demandLevel": "Medium-High",
+      "requiredSkills": [
+        "c-cpp-programming",
+        "digital-electronics",
+        "microcontrollers",
+        "computer-architecture",
+        "rtos-systems",
+        "serial-comm",
+        "pcb-design"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "id": "html-css",
+      "name": "HTML5 & CSS3",
+      "category": "Frontend Development",
+      "description": "Core layout and styling foundations of the web, including Flexbox, Grid, and responsive design.",
+      "level": "Beginner"
+    },
+    {
+      "id": "javascript",
+      "name": "JavaScript (ES6+)",
+      "category": "Software Engineering",
+      "description": "Core programming language of the web, covering DOM manipulation, asynchronous programming, and API requests.",
+      "level": "Beginner"
+    },
+    {
+      "id": "git",
+      "name": "Git & GitHub",
+      "category": "Developer Tools",
+      "description": "Version control basics, repository branching, merging, and collaboration workflows.",
+      "level": "Beginner"
+    },
+    {
+      "id": "react-js",
+      "name": "React.js Framework",
+      "category": "Frontend Development",
+      "description": "Component-based architecture, state management, hooks, and single-page application concepts.",
+      "level": "Intermediate"
+    },
+    {
+      "id": "nodejs-express",
+      "name": "Node.js & Express",
+      "category": "Backend Development",
+      "description": "JavaScript runtime on servers, writing RESTful APIs, routing, and middleware integration.",
+      "level": "Intermediate"
+    },
+    {
+      "id": "sql-databases",
+      "name": "SQL & Relational Databases",
+      "category": "Data Management",
+      "description": "Designing relational schemas, writing SQL queries, indexing, and executing database joins (SQLite, PostgreSQL).",
+      "level": "Intermediate"
+    },
+    {
+      "id": "system-design",
+      "name": "System Design & Architecture",
+      "category": "Software Engineering",
+      "description": "Designing scalable backend architectures, database scaling, caching strategies, and load balancers.",
+      "level": "Advanced"
+    },
+    {
+      "id": "cloud-deployment",
+      "name": "Cloud Deployment & CDN",
+      "category": "Developer Tools",
+      "description": "Deploying apps to Vercel, AWS, or Netlify, managing DNS, and using CDN caching services.",
+      "level": "Intermediate"
+    },
+    {
+      "id": "python",
+      "name": "Python Programming",
+      "category": "Software Engineering",
+      "description": "Versatile programming language used for scripting, backend development, and data science.",
+      "level": "Beginner"
+    },
+    {
+      "id": "math-foundations",
+      "name": "Math for ML (Linear Algebra & Calculus)",
+      "category": "Data Science",
+      "description": "Understanding matrices, vectors, eigenvalues, derivatives, and gradients needed for ML model training.",
+      "level": "Intermediate"
+    },
+    {
+      "id": "pandas-numpy",
+      "name": "Data Analysis (Pandas & NumPy)",
+      "category": "Data Science",
+      "description": "Manipulating structured data matrices, executing mathematical arrays operations, and loading datasets.",
+      "level": "Beginner"
+    },
+    {
+      "id": "scikit-learn",
+      "name": "Machine Learning Basics (Scikit-Learn)",
+      "category": "Artificial Intelligence",
+      "description": "Supervised and unsupervised learning, regression, decision trees, classification, and model evaluation.",
+      "level": "Intermediate"
+    },
+    {
+      "id": "deep-learning",
+      "name": "Deep Learning & Neural Networks",
+      "category": "Artificial Intelligence",
+      "description": "Multi-layer perceptrons, CNNs, RNNs, Transformers, and training models using PyTorch or TensorFlow.",
+      "level": "Advanced"
+    },
+    {
+      "id": "mlops",
+      "name": "MLOps & Model Deployment",
+      "category": "Developer Tools",
+      "description": "Deploying ML models as APIs, tracking training metrics, and managing data pipelines.",
+      "level": "Advanced"
+    },
+    {
+      "id": "networking-foundations",
+      "name": "Networking Foundations (TCP/IP)",
+      "category": "Cybersecurity / Systems",
+      "description": "Understanding network layers, IP addressing, DNS, DHCP, and standard protocols like HTTP, SSH, FTP.",
+      "level": "Beginner"
+    },
+    {
+      "id": "linux-bash",
+      "name": "Linux & Bash Scripting",
+      "category": "Cybersecurity / Systems",
+      "description": "Navigating the Linux CLI, file systems, permissions, service controls, and automating actions with Bash scripts.",
+      "level": "Beginner"
+    },
+    {
+      "id": "security-principles",
+      "name": "Cybersecurity Principles",
+      "category": "Cybersecurity",
+      "description": "Understanding CIA triad, AAA, threat modeling, common malware, and defense-in-depth concepts.",
+      "level": "Beginner"
+    },
+    {
+      "id": "cryptography",
+      "name": "Cryptography & PKI",
+      "category": "Cybersecurity",
+      "description": "Hashing functions, symmetric/asymmetric encryption, SSL/TLS, and public key infrastructure.",
+      "level": "Intermediate"
+    },
+    {
+      "id": "web-vulns-owasp",
+      "name": "Web Vulnerabilities (OWASP Top 10)",
+      "category": "Cybersecurity",
+      "description": "Identifying vulnerabilities like SQL Injection, XSS, CSRF, and broken access controls, and how to patch them.",
+      "level": "Intermediate"
+    },
+    {
+      "id": "penetration-testing",
+      "name": "Penetration Testing (Ethical Hacking)",
+      "category": "Cybersecurity",
+      "description": "Active discovery using Nmap, Wireshark, Metasploit, and document reporting.",
+      "level": "Advanced"
+    },
+    {
+      "id": "threat-analysis",
+      "name": "Threat Analysis & Incident Response",
+      "category": "Cybersecurity",
+      "description": "Analyzing server logs, utilizing SIEM systems, threat intelligence, and post-breach mitigation.",
+      "level": "Advanced"
+    },
+    {
+      "id": "cloud-platforms",
+      "name": "Cloud Platforms (AWS/GCP)",
+      "category": "Developer Tools",
+      "description": "Virtual machines (EC2), cloud storage (S3), serverless functions, networking subnets, and IAM roles.",
+      "level": "Intermediate"
+    },
+    {
+      "id": "docker-containers",
+      "name": "Containerization (Docker)",
+      "category": "Developer Tools",
+      "description": "Creating Dockerfiles, managing container images, and running multi-container stacks with Docker Compose.",
+      "level": "Intermediate"
+    },
+    {
+      "id": "cicd-pipelines",
+      "name": "CI/CD Pipelines",
+      "category": "Developer Tools",
+      "description": "Automating builds, testing, and deployments using GitHub Actions, GitLab CI, or Jenkins.",
+      "level": "Intermediate"
+    },
+    {
+      "id": "kubernetes",
+      "name": "Orchestration (Kubernetes)",
+      "category": "Developer Tools",
+      "description": "Deploying container clusters, load balancing pod workloads, scaling, and managing volume mounts.",
+      "level": "Advanced"
+    },
+    {
+      "id": "infra-as-code",
+      "name": "Infrastructure as Code (Terraform)",
+      "category": "Developer Tools",
+      "description": "Writing declarative infrastructure configurations to deploy cloud resources programmatically.",
+      "level": "Advanced"
+    },
+    {
+      "id": "c-cpp-programming",
+      "name": "C & C++ Programming",
+      "category": "Software Engineering",
+      "description": "Memory management, pointers, structures, compiler compiling, and low-level code control.",
+      "level": "Beginner"
+    },
+    {
+      "id": "digital-electronics",
+      "name": "Digital Electronics & Logic Design",
+      "category": "Electrical Engineering",
+      "description": "Boolean algebra, logic gates, flip-flops, registers, counters, and digital hardware foundations.",
+      "level": "Beginner"
+    },
+    {
+      "id": "microcontrollers",
+      "name": "Microcontrollers (Arduino & STM32)",
+      "category": "Electrical Engineering",
+      "description": "Programming hardware chips, using GPIO pins, analog inputs, and writing drivers for peripherals.",
+      "level": "Intermediate"
+    },
+    {
+      "id": "computer-architecture",
+      "name": "Computer Architecture & Assembly",
+      "category": "Electrical Engineering",
+      "description": "Understanding CPU instructions, ALU operations, register sets, cache memory, and basic assembly programming.",
+      "level": "Intermediate"
+    },
+    {
+      "id": "rtos-systems",
+      "name": "Real-Time Operating Systems (RTOS)",
+      "category": "Cybersecurity / Systems",
+      "description": "Task scheduling, semaphores, mutexes, and writing low-latency real-time applications on microcontrollers.",
+      "level": "Advanced"
+    },
+    {
+      "id": "serial-comm",
+      "name": "Serial Communication Protocols",
+      "category": "Electrical Engineering",
+      "description": "Implementing data exchanges using hardware protocols like I2C, SPI, UART, and CAN Bus.",
+      "level": "Intermediate"
+    },
+    {
+      "id": "pcb-design",
+      "name": "PCB Design & Hardware Prototyping",
+      "category": "Electrical Engineering",
+      "description": "Designing schematic circuits, layouts, routing traces in KiCad, and prototyping physical hardware boards.",
+      "level": "Intermediate"
+    }
+  ],
+  "roadmaps": [
+    {
+      "id": "roadmap-fullstack",
+      "careerId": "fullstack-engineer",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Frontend Essentials",
+          "description": "Master web structure, layouts, dynamic styling, and scripting basics.",
+          "skillIds": [
+            "html-css",
+            "javascript"
+          ]
+        },
+        {
+          "stepNumber": 2,
+          "title": "Version Control & Frameworks",
+          "description": "Learn to manage version tracking and build complex component-driven layouts.",
+          "skillIds": [
+            "git",
+            "react-js"
+          ]
+        },
+        {
+          "stepNumber": 3,
+          "title": "Backend & Database Integrations",
+          "description": "Spin up API servers, connect persistent database engines, and write CRUD routines.",
+          "skillIds": [
+            "nodejs-express",
+            "sql-databases"
+          ]
+        },
+        {
+          "stepNumber": 4,
+          "title": "Production Scaling & Systems",
+          "description": "Optimize layout designs for high scale and deploy to globally reachable cloud instances.",
+          "skillIds": [
+            "system-design",
+            "cloud-deployment"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "roadmap-aiml",
+      "careerId": "aiml-specialist",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Languages & Statistics",
+          "description": "Establish coding fluency and the linear algebra and calculus necessary to understand gradients.",
+          "skillIds": [
+            "python",
+            "math-foundations"
+          ]
+        },
+        {
+          "stepNumber": 2,
+          "title": "Data Manipulation & Classical ML",
+          "description": "Wrangle structured tables and apply standard models like linear regressions, trees, and SVMs.",
+          "skillIds": [
+            "pandas-numpy",
+            "scikit-learn"
+          ]
+        },
+        {
+          "stepNumber": 3,
+          "title": "Deep Learning & Deployments",
+          "description": "Dive deep into multi-layer neural networks, backpropagation, and putting models into production containers.",
+          "skillIds": [
+            "deep-learning",
+            "mlops"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "roadmap-cybersecurity",
+      "careerId": "cybersecurity-analyst",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Networking & Systems Basics",
+          "description": "Understand core hardware switches, routing tables, and operating system administrations.",
+          "skillIds": [
+            "networking-foundations",
+            "linux-bash"
+          ]
+        },
+        {
+          "stepNumber": 2,
+          "title": "Foundational Security",
+          "description": "Master cryptographic concepts, access control lists, and standard defensive policies.",
+          "skillIds": [
+            "security-principles",
+            "cryptography"
+          ]
+        },
+        {
+          "stepNumber": 3,
+          "title": "Offensive & Defensive Operations",
+          "description": "Understand hacker vectors, scan vulnerabilities, and write defensive patches.",
+          "skillIds": [
+            "web-vulns-owasp",
+            "penetration-testing",
+            "threat-analysis"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "roadmap-devops",
+      "careerId": "devops-engineer",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Scripting & Systems",
+          "description": "Master shell utilities, operating system permissions, and write helper scripting logic.",
+          "skillIds": [
+            "linux-bash",
+            "python",
+            "networking-foundations"
+          ]
+        },
+        {
+          "stepNumber": 2,
+          "title": "Containerization & Cloud Services",
+          "description": "Package applications in virtual containers and provision compute environments on public providers.",
+          "skillIds": [
+            "cloud-platforms",
+            "docker-containers"
+          ]
+        },
+        {
+          "stepNumber": 3,
+          "title": "Automation at Scale",
+          "description": "Establish continuous deployment routines, launch auto-scaling orchestrations, and write declarative IaC scripts.",
+          "skillIds": [
+            "cicd-pipelines",
+            "kubernetes",
+            "infra-as-code"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "roadmap-embedded",
+      "careerId": "embedded-engineer",
+      "steps": [
+        {
+          "stepNumber": 1,
+          "title": "Low-level Language & Logic",
+          "description": "Learn low-level pointers and digital logical elements (gates, registers).",
+          "skillIds": [
+            "c-cpp-programming",
+            "digital-electronics"
+          ]
+        },
+        {
+          "stepNumber": 2,
+          "title": "Hardware & Communications",
+          "description": "Program microcontrollers directly and read/write hardware buses (SPI, I2C).",
+          "skillIds": [
+            "microcontrollers",
+            "computer-architecture",
+            "serial-comm"
+          ]
+        },
+        {
+          "stepNumber": 3,
+          "title": "RTOS & Advanced Prototyping",
+          "description": "Write multi-threaded scheduler loops and lay out schematic designs for physical PCB manufacturing.",
+          "skillIds": [
+            "rtos-systems",
+            "pcb-design"
+          ]
+        }
+      ]
+    }
+  ],
+  "resources": [
+    {
+      "id": "res-html-css-1",
+      "skillId": "html-css",
+      "title": "FreeCodeCamp: Responsive Web Design Certification",
+      "type": "course",
+      "url": "https://www.freecodecamp.org/learn/2022/responsive-web-design/",
+      "description": "A comprehensive, 100% free course covering CSS basics, Flexbox, Grid, and visual accessibility rules.",
+      "platform": "FreeCodeCamp",
+      "difficulty": "Beginner",
+      "duration": "30 hours"
+    },
+    {
+      "id": "proj-html-css-1",
+      "skillId": "html-css",
+      "title": "Personal Portfolio Website",
+      "type": "project",
+      "url": "",
+      "description": "Create a fully responsive portfolio page from scratch using raw HTML and CSS. Implement dark mode toggles, layout grids, and a floating contact form. Ensure no external frameworks are used.",
+      "platform": "Independent",
+      "difficulty": "Beginner",
+      "duration": "10 hours"
+    },
+    {
+      "id": "res-js-1",
+      "skillId": "javascript",
+      "title": "JavaScript.info: Complete Core Course",
+      "type": "course",
+      "url": "https://javascript.info/",
+      "description": "Deep dive into JS syntax, objects, array operations, asynchronous fetch/promises, error handling, and DOM structures.",
+      "platform": "JavaScript.info",
+      "difficulty": "Beginner",
+      "duration": "25 hours"
+    },
+    {
+      "id": "proj-js-1",
+      "skillId": "javascript",
+      "title": "Interactive Task Board (Trello-like)",
+      "type": "project",
+      "url": "",
+      "description": "Build a task manager with columns (To Do, In Progress, Done). Support drag-and-drop, persistent local storage, subtask lists, and color tags. Write using pure, modular vanilla JS.",
+      "platform": "Independent",
+      "difficulty": "Beginner",
+      "duration": "15 hours"
+    },
+    {
+      "id": "res-git-1",
+      "skillId": "git",
+      "title": "Git & GitHub Crash Course",
+      "type": "course",
+      "url": "https://www.youtube.com/watch?v=RGOj5yH7evk",
+      "description": "A crash course covering repositories, staging, commit messages, git history, branches, merging, resolve conflicts, and pull requests.",
+      "platform": "YouTube / Traversy Media",
+      "difficulty": "Beginner",
+      "duration": "1 hour"
+    },
+    {
+      "id": "res-react-1",
+      "skillId": "react-js",
+      "title": "React.dev: Learn React Tutorial",
+      "type": "course",
+      "url": "https://react.dev/learn",
+      "description": "The official documentation guides. Covers components, rendering list items, state hooks (useState, useEffect, useContext), and custom hooks.",
+      "platform": "Official Docs",
+      "difficulty": "Intermediate",
+      "duration": "12 hours"
+    },
+    {
+      "id": "proj-react-1",
+      "skillId": "react-js",
+      "title": "Finance Dashboard with Dynamic Charts",
+      "type": "project",
+      "url": "",
+      "description": "Implement a dashboard to monitor expenses and budgets. Render interactive line and bar charts (using Chart.js or canvas), support transactions filters, export data as CSV, and cache data.",
+      "platform": "Independent",
+      "difficulty": "Intermediate",
+      "duration": "20 hours"
+    },
+    {
+      "id": "res-node-1",
+      "skillId": "nodejs-express",
+      "title": "Node.js & Express Course",
+      "type": "course",
+      "url": "https://www.youtube.com/watch?v=Oe421EPjeBE",
+      "description": "Detailed walk-through covering node system modules, routing handlers, JSON middlewares, request/response models, and error management.",
+      "platform": "YouTube / FCC",
+      "difficulty": "Intermediate",
+      "duration": "8 hours"
+    },
+    {
+      "id": "proj-node-1",
+      "skillId": "nodejs-express",
+      "title": "Secure RESTful E-Commerce API",
+      "type": "project",
+      "url": "",
+      "description": "Develop a backend API supporting product catalog, cart session management, order checking, secure JWT auth, image upload, and payment simulation.",
+      "platform": "Independent",
+      "difficulty": "Intermediate",
+      "duration": "25 hours"
+    },
+    {
+      "id": "res-sql-1",
+      "skillId": "sql-databases",
+      "title": "Kaggle: Intro to SQL Course",
+      "type": "course",
+      "url": "https://www.kaggle.com/learn/intro-to-sql",
+      "description": "Learn to structured query language, select statements, group by aggregates, join relational tables, and write optimized queries.",
+      "platform": "Kaggle",
+      "difficulty": "Beginner",
+      "duration": "4 hours"
+    },
+    {
+      "id": "res-sys-1",
+      "skillId": "system-design",
+      "title": "ByteByteGo: System Design Fundamentals",
+      "type": "course",
+      "url": "https://bytebytego.com/",
+      "description": "Excellent visual guide covering load balancers, database sharding, horizontal scaling, caching, CDNs, and microservices design patterns.",
+      "platform": "ByteByteGo",
+      "difficulty": "Advanced",
+      "duration": "40 hours"
+    },
+    {
+      "id": "res-python-1",
+      "skillId": "python",
+      "title": "Python for Everybody Specialization",
+      "type": "course",
+      "url": "https://www.coursera.org/specializations/python",
+      "description": "Covers core syntax, parsing JSON/XML data, scraping pages, and connecting databases.",
+      "platform": "Coursera / University of Michigan",
+      "difficulty": "Beginner",
+      "duration": "40 hours"
+    },
+    {
+      "id": "proj-python-1",
+      "skillId": "python",
+      "title": "Web Data Scraper & Aggregator",
+      "type": "project",
+      "url": "",
+      "description": "Write a python script that scrapes developer job listings from job portals, parses details, filters out duplicates, saves to a JSON file, and emails a daily recap table.",
+      "platform": "Independent",
+      "difficulty": "Beginner",
+      "duration": "12 hours"
+    },
+    {
+      "id": "res-math-1",
+      "skillId": "math-foundations",
+      "title": "Mathematics for Machine Learning",
+      "type": "course",
+      "url": "https://www.coursera.org/specializations/mathematics-machine-learning",
+      "description": "Covers linear algebra matrices, multivariable calculus optimization, and eigenvalues necessary to grasp ML training.",
+      "platform": "Coursera / Imperial College London",
+      "difficulty": "Intermediate",
+      "duration": "30 hours"
+    },
+    {
+      "id": "res-pandas-1",
+      "skillId": "pandas-numpy",
+      "title": "Kaggle: Pandas & Data Manipulation",
+      "type": "course",
+      "url": "https://www.kaggle.com/learn/pandas",
+      "description": "Hands-on exercises for data indexing, filtering, renaming columns, grouping aggregates, and handling missing data values.",
+      "platform": "Kaggle",
+      "difficulty": "Beginner",
+      "duration": "4 hours"
+    },
+    {
+      "id": "res-scikit-1",
+      "skillId": "scikit-learn",
+      "title": "Machine Learning with Python",
+      "type": "course",
+      "url": "https://www.freecodecamp.org/news/machine-learning-with-python-video-course/",
+      "description": "Covers regressions, decision trees, K-Means clustering, and evaluation metrics using the Scikit-Learn framework.",
+      "platform": "FreeCodeCamp",
+      "difficulty": "Intermediate",
+      "duration": "10 hours"
+    },
+    {
+      "id": "proj-scikit-1",
+      "skillId": "scikit-learn",
+      "title": "Housing Price Predictor System",
+      "type": "project",
+      "url": "",
+      "description": "Clean a real estate dataset, handle null inputs, encode categorical labels, scale features, and train a Random Forest Regressor. Generate mean squared error plots.",
+      "platform": "Independent",
+      "difficulty": "Intermediate",
+      "duration": "15 hours"
+    },
+    {
+      "id": "res-deep-1",
+      "skillId": "deep-learning",
+      "title": "Practical Deep Learning for Coders",
+      "type": "course",
+      "url": "https://course.fast.ai/",
+      "description": "A top-rated, code-first introduction to deep neural networks, CNNs, image classifiers, transformers, and training models using PyTorch.",
+      "platform": "Fast.ai",
+      "difficulty": "Advanced",
+      "duration": "40 hours"
+    },
+    {
+      "id": "proj-deep-1",
+      "skillId": "deep-learning",
+      "title": "Custom Object Detection Model",
+      "type": "project",
+      "url": "",
+      "description": "Collect and label a small custom image dataset (e.g. recycling materials). Fine-tune a YOLO or ResNet model in PyTorch, implement test validations, and visualize predictions.",
+      "platform": "Independent",
+      "difficulty": "Advanced",
+      "duration": "30 hours"
+    },
+    {
+      "id": "res-net-1",
+      "skillId": "networking-foundations",
+      "title": "Google IT Support Professional: Bits and Bytes of Networking",
+      "type": "course",
+      "url": "https://www.coursera.org/learn/computer-networking",
+      "description": "Covers five-layer TCP/IP network topologies, subnet masks, DNS records, DHCP systems, routing tables, and diagnostic commands.",
+      "platform": "Coursera / Google",
+      "difficulty": "Beginner",
+      "duration": "25 hours"
+    },
+    {
+      "id": "res-linux-1",
+      "skillId": "linux-bash",
+      "title": "NDG Linux Unhatched: CLI Basics",
+      "type": "course",
+      "url": "https://www.netacad.com/courses/os-it/ndg-linux-unhatched",
+      "description": "A free interactive terminal simulator course introducing command structures, text edits, files permissions, and bash paths.",
+      "platform": "Cisco NetAcad",
+      "difficulty": "Beginner",
+      "duration": "8 hours"
+    },
+    {
+      "id": "proj-linux-1",
+      "skillId": "linux-bash",
+      "title": "Automatic Server Backup Utility",
+      "type": "project",
+      "url": "",
+      "description": "Write a bash script that recursively compresses a directory of assets, appends dates, runs security validations, and copies it to a separate volume. Configure to run as a weekly cron job.",
+      "platform": "Independent",
+      "difficulty": "Beginner",
+      "duration": "8 hours"
+    },
+    {
+      "id": "res-sec-1",
+      "skillId": "security-principles",
+      "title": "CompTIA Security+ Study Guide",
+      "type": "certification",
+      "url": "https://www.comptia.org/certifications/security",
+      "description": "Industry standard benchmark security certification covering core network security, host threats, compliance protocols, and incident controls.",
+      "platform": "CompTIA",
+      "difficulty": "Intermediate",
+      "duration": "50 hours"
+    },
+    {
+      "id": "res-c-1",
+      "skillId": "c-cpp-programming",
+      "title": "C Programming for Beginners",
+      "type": "course",
+      "url": "https://www.freecodecamp.org/news/c-programming-service/",
+      "description": "Introduction to compiled programming, primitive types, function scopes, pointers, array buffer allocations, and files I/O operations.",
+      "platform": "FreeCodeCamp",
+      "difficulty": "Beginner",
+      "duration": "10 hours"
+    },
+    {
+      "id": "proj-c-1",
+      "skillId": "c-cpp-programming",
+      "title": "Virtual File Allocation Table System",
+      "type": "project",
+      "url": "",
+      "description": "Build a CLI file management program in C. Implement custom file metadata structs, memory allocation blocks, directory tables, read/write/delete operations, and save outputs to a binary file.",
+      "platform": "Independent",
+      "difficulty": "Intermediate",
+      "duration": "20 hours"
+    },
+    {
+      "id": "res-micro-1",
+      "skillId": "microcontrollers",
+      "title": "Embedded Systems Core Foundations",
+      "type": "course",
+      "url": "https://www.edx.org/course/embedded-systems-shape-the-world-microcontroller-input-output",
+      "description": "Learn to write real-time code for ARM Cortex microprocessors, controlling LED duty-cycles, reading analog sensors, and managing interrupts.",
+      "platform": "edX / UT Austin",
+      "difficulty": "Intermediate",
+      "duration": "40 hours"
+    },
+    {
+      "id": "proj-micro-1",
+      "skillId": "microcontrollers",
+      "title": "Smart Home Weather Station",
+      "type": "project",
+      "url": "",
+      "description": "Program an ESP32 or Arduino board to read temperature, humidity, and pressure sensors. Send sensor readings to a local Wi-Fi API server and display values on an OLED hardware screen.",
+      "platform": "Independent",
+      "difficulty": "Intermediate",
+      "duration": "16 hours"
+    }
+  ],
+  "userProgress": [
+    {
+      "userId": "student-1",
+      "careerId": "fullstack-engineer",
+      "completedSkills": [
+        "html-css",
+        "javascript",
+        "git"
+      ],
+      "completedProjects": [
+        "proj-html-css-1",
+        "proj-js-1"
+      ],
+      "active": true,
+      "updatedAt": "2026-08-07T00:00:00.000Z"
+    }
+  ]
+}
